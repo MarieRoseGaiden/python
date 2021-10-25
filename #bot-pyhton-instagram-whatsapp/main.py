@@ -46,7 +46,7 @@ instagram_password = input('Instagram password: ')
 whatsapp_number = input('whatsapp: ')
 
 def text_to_speech(text):
-    print('Enviando mensagem...')
+    print('sending message...')
     tts = gTTS(text, lang='en')
     tts.save('speech.mp3')
     os.system('speech.mp3')
