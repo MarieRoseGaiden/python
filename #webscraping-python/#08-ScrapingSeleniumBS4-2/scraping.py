@@ -11,7 +11,7 @@ options = Options()
 #options.add_argument('--headless')
 options.add_argument('window-size=375,812')
 
-driver = webdriver.Chrome(executable_path="C:\\WebDriver\\bin\\chromedriver",options=options)
+driver = webdriver.Chrome(executable_path="C:\\WebDriver\\bin\\chromedriver.exe",options=options)
 
 url = 'https://airbnb.com.br'
 driver.get(url)

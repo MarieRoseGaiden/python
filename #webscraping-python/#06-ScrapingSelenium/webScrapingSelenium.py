@@ -1,7 +1,7 @@
 from selenium import webdriver
 from time import sleep
 
-browser = webdriver.Edge(executable_path='C:\\WebDriver\\bin\\msedgedriver.exe')
+browser = webdriver.Chrome(executable_path='C:\\WebDriver\\bin\\chromedriver.exe')
 
 url = 'https://www.walissonsilva.com/blog'
 browser.get(url)
